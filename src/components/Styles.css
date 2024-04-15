@@ -1,8 +1,47 @@
 .nav
 {
-    color: inherit !important;
+    /* color: inherit !important; */
 }
 .nav-link
 {
     color:white !important;
+}
+.body1
+{
+    min-height: 100vh;
+   width:100%;
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)),url('../assets/edusity_assets/hero.png');
+    background-size:cover;
+    background-position: center;
+    color: #fff;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar
+{
+   width:100vw;
+}
+.btn
+{
+    background-color: white !important;
+    color: black !important;
+    border-radius: 45% !important;
+    padding: 10px !important;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+.btn-exp
+{
+    background-color: green;
+    color:white;
+    
+}
+.para
+{
+    text-align: center;
 }
