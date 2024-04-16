@@ -142,3 +142,52 @@
     align-items: center;
      margin: 40px auto;
     }
+    .div-left {
+        flex-basis: 40%;
+        position :relative;
+
+       
+    }
+    .div-right{
+        flex-basis:56%;
+    }
+    .about
+    
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:90%;
+    }
+    .about-img{
+        width:100%;
+        border-radius: 10px;
+
+        
+    }
+    .play-icon
+    {
+        background: rgba(0,15,152,0.1);
+        position : absolute;
+        width: 50px;
+        top:50%;
+        left:50%;
+        transition: 0.5s;
+        cursor: pointer;
+        opacity: 0;
+    }
+    .play-icon:hover{
+        opacity: 1;
+        padding-top: 0;
+    }
+    .div-right h3{
+        color: rgb(64, 64, 208);
+        font-size: 20px;
+    }
+    .div-right h2{
+        font-weight: 600px;
+        font-size: 35px;
+    }
+    .div-right p{
+        font-size: 16px;
+    }
