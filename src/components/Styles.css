@@ -1,10 +1,68 @@
-.nav
-{
-    /* color: inherit !important; */
+.nav{
+    width: 100%;
+    flex: 0 0 auto;
 }
 .nav-link
 {
     color:white !important;
+}
+
+
+.navbar
+{
+   width: 100%;
+}
+.btn
+{
+    background-color: white !important;
+    color: black !important;
+    border-radius: 45% !important;
+    /* padding: 10px !important; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    margin-right: auto;
+}
+    .container-sm {
+    
+        max-width: 100%;
+    } 
+    @media (max-width: 767px) {
+        .container-sm {
+          max-width: 100%; /* Allow container to be full width on smaller screens */
+        }
+      } 
+
+.btn-exp
+{
+    background-color: green;
+    font-size: 20px;;
+    color:white;
+    border-color: white;
+    max-width: 200px;
+   
+}
+.up-btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.para h1
+{
+    font-size: 60px;
+    font-weight: 500px;
+}
+.para p
+{
+    font-size: 20px;
+    margin: 20px auto 40px;
+    letter-spacing: 1px;
+    
+}
+.arrow
+{
+    width: 30px;
+    margin-left: 10px;
+    
 }
 .body1
 {
@@ -14,7 +72,6 @@
     background-size:cover;
     background-position: center;
     color: #fff;
-    position: fixed;
     margin: 0;
     padding: 0;
     display: flex;
@@ -22,26 +79,59 @@
     align-items: center;
 
 }
+.carousel
 
-.navbar
 {
-   width:100vw;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
 }
-.btn
+.img
 {
-    background-color: white !important;
-    color: black !important;
-    border-radius: 45% !important;
-    padding: 10px !important;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
-.btn-exp
+.icon
 {
-    background-color: green;
+    max-width: 50%;
+   
+    height:auto
+}
+.caption
+{
+    top:0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    border-radius: 10px;
+    position: absolute;
+    background: rgba(0,15,152,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     color:white;
-    
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.5s;
+
 }
-.para
+.caption:hover{
+    opacity: 1;
+    padding-top: 0;
+}
+.bigdiv
 {
-    text-align: center;
+    flex-basis: 31%;
+    position: relative;
+ 
+   
+}
+.icon{
+    width:60px;
+    margin-bottom: 10px;
 }

@@ -8,26 +8,28 @@ import Button from 'react-bootstrap/Button';
 
 export const Header = () => {
   return (
-    <Navbar bg="dark" data-bs-theme="dark"  sticky='top' className='nav' >
-      <Container className=' container-lg'>
+    <Navbar expand='lg' bg="dark" data-bs-theme="dark"  sticky='top' className='nav' >
+      <Container className=' container-sm'>
         <Navbar.Brand href="#home">
         <img src={logo} height='30' className="d-inline-block align-top"/>
         </Navbar.Brand>
-        <Nav className='ms-auto'>
-        <Nav.Link href='#Home'>Home</Nav.Link>
-        <Nav.Link href='#Program'>Program</Nav.Link>
-        <Nav.Link href='#About Us'>About Us</Nav.Link>
-        <Nav.Link href='#Campus'>Campus</Nav.Link>
-        <Nav.Link href='#Testimonials'>Testimonials</Nav.Link>
-        </Nav>
-        <Nav>
-        <Nav.Link href='#Testimonials'><Button className='btn btn-sm'>Contact Us</Button></Nav.Link>
-        </Nav>
-
+        <Navbar.Toggle aria-controls="navbar-nav" />
+        <Navbar.Collapse id="navbar-nav" className="justify-content-end">
+          <Nav className="ms-auto">
+            <Nav.Link href='#Home'>Home</Nav.Link>
+            <Nav.Link href='#Program'>Program</Nav.Link>
+            <Nav.Link href='#About Us'>About Us</Nav.Link>
+            <Nav.Link href='#Campus'>Campus</Nav.Link>
+            <Nav.Link href='#Testimonials'>Testimonials</Nav.Link>
+          </Nav>
+          <Nav>
+            <Button>Contact Us</Button>
+          </Nav>
+        </Navbar.Collapse>
 
 
       </Container>
-    
   </Navbar>
+    
   )
 }
