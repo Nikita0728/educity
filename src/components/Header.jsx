@@ -5,10 +5,19 @@ import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import logo from "../assets/edusity_assets/logo.png"
 import Button from 'react-bootstrap/Button';
+import { useState,useEffect } from 'react'
 
 export const Header = () => {
+  const[sticky, setSticky] = useState(false)
+  useEffect(()=>{
+    window.addEventListener('scroll',
+    ()=>{
+      window.scrollY>50?setSticky(true):setSticky(false);
+    }
+  )
+  },[])
   return (
-    <Navbar expand='lg' bg="dark" data-bs-theme="dark"  sticky='top' className='nav' >
+    <Navbar expand='lg' bg="dark" data-bs-theme="dark" sticky='top'  className='nav' >
       <Container className=' container-sm'>
         <Navbar.Brand href="#home">
         <img src={logo} height='30' className="d-inline-block align-top"/>
