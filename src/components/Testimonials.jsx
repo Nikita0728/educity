@@ -1,0 +1,77 @@
+import React from 'react'
+import './Styles.css'
+import next_icon from '../assets/edusity_assets/next-icon.png'
+import back_icon from '../assets/edusity_assets/back-icon.png'
+import user_1 from '../assets/edusity_assets/user-1.png'
+import user_2 from '../assets/edusity_assets/user-2.png'
+import user_3 from '../assets/edusity_assets/user-3.png'
+import user_4 from '../assets/edusity_assets/user-4.png'
+
+
+export const Testimonials = () => {
+  return (
+    <div className='Testimonials new div-right'>
+ <h3>Testimonials</h3>
+     <div><h2> What students say!</h2></div>
+     <div className='test-2'>
+             <img src={next_icon} className='next-btn'/>
+             <img src={back_icon} className='back-btn'/>
+             <div className='slider'>
+                <ul>
+                    <li>
+                        <div className="slide">
+                            <div className="userinfo">
+                                <img src={user_1} alt=''/>
+                                <div>
+                                     <h3>Monica Becky</h3>
+                                     <span>Educity,USA</span>
+                                </div>
+
+                            </div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit a debitis officiis consequuntur quia totam ex accusantium porro libero. Reiciendis distinctio a, numquam quae dignissimos vero omnis odit obcaecati non? Dicta ipsam rerum voluptatibus?</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div className="slide">
+                            <div className="userinfo">
+                                <img src={user_2} alt=''/>
+                                <div>
+                                     <h3>John Becky</h3>
+                                     <span>Educity,USA</span>
+                                </div>
+
+                            </div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit a debitis officiis consequuntur quia totam ex accusantium porro libero. Reiciendis distinctio a, numquam quae dignissimos vero omnis odit obcaecati non? Dicta ipsam rerum voluptatibus?</p>
+                        </div>
+                    </li><li>
+                        <div className="slide">
+                            <div className="userinfo">
+                                <img src={user_3} alt=''/>
+                                <div>
+                                     <h3>Stormy Scott</h3>
+                                     <span>Educity, Canada</span>
+                                </div>
+
+                            </div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit a debitis officiis consequuntur quia totam ex accusantium porro libero. Reiciendis distinctio a, numquam quae dignissimos vero omnis odit obcaecati non? Dicta ipsam rerum voluptatibus?</p>
+                        </div>
+                    </li><li>
+                        <div className="slide">
+                            <div className="userinfo">
+                                <img src={user_4} alt=''/>
+                                <div>
+                                     <h3>Jonathan steel</h3>
+                                     <span>Educity,England</span>
+                                </div>
+
+                            </div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit a debitis officiis consequuntur quia totam ex accusantium porro libero. Reiciendis distinctio a, numquam quae dignissimos vero omnis odit obcaecati non? Dicta ipsam rerum voluptatibus?</p>
+                        </div>
+                    </li>
+                </ul>
+             </div>
+
+     </div>
+    </div>
+  )
+}

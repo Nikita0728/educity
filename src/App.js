@@ -4,6 +4,7 @@ import { Headermax } from './components/Headermax';
 import { Programs } from './components/Programs';
 import {About} from './components/About';
 import { Campus } from './components/Campus';
+import {Testimonials} from './components/Testimonials';
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
    <Programs/>
    <About/>
    <Campus/>
+    <Testimonials/>
     </>
   );
 }

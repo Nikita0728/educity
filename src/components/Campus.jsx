@@ -4,6 +4,7 @@ import g_1 from '../assets/edusity_assets/gallery-1.png'
 import g_2 from '../assets/edusity_assets/gallery-2.png'
 import g_3 from '../assets/edusity_assets/gallery-3.png'
 import g_4 from '../assets/edusity_assets/gallery-4.png' 
+import white_arrow from '../assets/edusity_assets/white-arrow.png'
 
 export const Campus = () => {
   return (
@@ -23,6 +24,7 @@ export const Campus = () => {
 
      
         </div>
+        <button className='see-more-button'>See More here <img src={white_arrow}></img></button>
             </div>
             </div>
      </div>

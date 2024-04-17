@@ -227,6 +227,79 @@
         align-items: center;
         flex-direction: column;
     }
-   
+   .see-more-button
+   {
+     background-color: rgb(83, 83, 248);
+        color: white;
+        border-color: white;
+        height:50px;
+        border-radius: 10px;
+   }
+   .see-more-button img{
+    width:25px;
+    margin-left: 5px;
+   }
+   .Testimonials
+   {
+    margin-top: 20px;;
+
+   }
+   .test-2
+   {
+       margin: 80px auto;
+       padding :0 80px;
+       position: relative;
+       width:90%;
+       
+    }
+    .next-btn,.back-btn 
+    {
+     background-color: rgb(83, 83, 248);
+     position: absolute;
+     top:50%;
+     right:0;
+     transform: translateY(-50%) ;
+     padding :15px;
+     width:50px;
+     cursor: pointer;
+     border-radius: 30px;
+ 
+ 
+     
+    }
+    .back-btn 
+    {
+        right:auto;
+        left :0;
+    }
+    .slider
+    {
+        overflow:hidden;
+    }
+    .slider ul{
+        display:flex;
+        width:200%;
+        overflow-x: hidden;
+        transition: 0.5s;;
+    }
+    .slider li{
+       list-style: none;
+       width: 50%;
+       padding:10px;
+    }
+    .slide{
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        color: #676767;
+        line-height: 1.4;
+        padding :40px;
+        border-radius: 10px;
+    }
+    .userinfo img{
+        border-radius: 5000px;
+        width :100px;
+        border:5px solid rgb(122, 122, 245)
+    }
+
+
     
    
