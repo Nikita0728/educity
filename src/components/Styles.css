@@ -348,6 +348,23 @@
         resize: none;
 
     }
+    .contactcol span{
+        display: block;
+        margin :20px
+    }
+    .footer{
+        margin:10px auto;
+        display :flex;
+        width:90%;
+        justify-content: space-between;
+
+        justify-content: space-between; 
+        border-top: 1px solid #797979
+    }
+    .footer li{
+        display: inline;
+        margin-right: 10px;
+    }
     
         
 
