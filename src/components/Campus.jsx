@@ -8,7 +8,7 @@ import white_arrow from '../assets/edusity_assets/white-arrow.png'
 
 export const Campus = () => {
   return (
-        <div className=" cphotos">
+        <div className=" cphotos" id='camp'>
     <div>
         <div className='new div-right'  >
      <h3>Gallery</h3>

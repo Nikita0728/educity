@@ -4,7 +4,7 @@ import play_icon from '../assets/edusity_assets/play-icon.png'
 
 export const About = () => {
   return (
-    <>
+    <div id='abt'>
     <div className='about'>
         <div className="div-left">
                 <img src={about} alt='' className='about-img'/>
@@ -26,6 +26,6 @@ export const About = () => {
 
     </div>
     
-     </>
+     </div>
   )
 }

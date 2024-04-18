@@ -27,7 +27,7 @@ export const Testimonials = () => {
     }
 
   return (
-    <div className='Testimonials new div-right'>
+    <div className='Testimonials new div-right' id='test'>
  <h3>Testimonials</h3>
      <div><h2> What students say!</h2></div>
      <div className='test-2'>

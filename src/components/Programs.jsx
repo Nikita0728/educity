@@ -9,7 +9,7 @@ import img_icon_3 from '../assets/edusity_assets/program-icon-3.png'
 
 export const Programs = () => {
   return (
-    <div >
+    <div className='programs' id='prog' >
       <div className="title"> <h2 style={{mt:'40px'}} > OUR PROGRAMS</h2>
       </div> <hr/>
     <div className=' carousel' style={{mt:'40px'}}>
